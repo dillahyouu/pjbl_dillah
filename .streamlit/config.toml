@@ -3,7 +3,7 @@ primaryColor="#00E5FF"
 backgroundColor="#1A1A2E"
 secondaryBackgroundColor="#252542"
 textColor="#FF94B8"
-font="smonospace"
+font="monospace"
 
 [client]
 showErrorDetails=false
