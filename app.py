@@ -29,7 +29,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.balloons()
             
 
@@ -46,7 +46,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.snow()
 
 
@@ -62,7 +62,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.balloons()
 
 
@@ -80,7 +80,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.snow()
 
     case "TRAPESIUM":
@@ -99,7 +99,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.balloons()
 
     case "SEGITIGA":
@@ -117,7 +117,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.snow()
 
     case "LAYANG-LAYANG":
@@ -135,7 +135,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.balloons()
 
     case "BELAH KETUPAT":
@@ -152,7 +152,7 @@ match pilihan:
             with col1:
                 st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}", border=True)
             st.snow()
 
     case _ :
