@@ -1,10 +1,10 @@
 [theme]
-primaryColor="#00E5FF"
-backgroundColor="#1A1A2E"
-secondaryBackgroundColor="#252542"
-textColor="#FF94B8"
-font="monospace"
+primaryColor = "#FF5E97"          
+backgroundColor = "#FFF0F5"       
+secondaryBackgroundColor = "#FFE4E1"
+textColor = "#4A2E35"           
+font = "sans serif"
 
 [client]
-showErrorDetails=false
-toolbarMode="minimal"
+showErrorDetails = false
+toolbarMode = "minimal"
