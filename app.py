@@ -27,9 +27,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.balloons()
             
 
@@ -44,9 +44,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.snow()
 
 
@@ -60,9 +60,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.balloons()
 
 
@@ -78,9 +78,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.snow()
 
     case "TRAPESIUM":
@@ -97,9 +97,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.balloons()
 
     case "SEGITIGA":
@@ -115,9 +115,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.snow()
 
     case "LAYANG-LAYANG":
@@ -133,9 +133,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.balloons()
 
     case "BELAH KETUPAT":
@@ -150,9 +150,9 @@ match pilihan:
             st.success(f"LUAS Persegi adalah {luas:.2f} dan KELILING Persegi adalah {keliling:.2f}")
             col1, col2 = st.columns([2,2])
             with col1:
-                st.metric("Luas", value = luas, border=True)
+                st.metric("Luas", value = f"{luas:.2f}", border=True)
             with col2:
-                st.metric("Keliling", value = keliling, border=True)
+                st.metric("Keliling", value = f"{keliling:.2f}, border=True)
             st.snow()
 
     case _ :
